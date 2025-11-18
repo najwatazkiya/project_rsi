@@ -18,16 +18,20 @@
             margin-left: 260px;
         }
 
-        .header-title {
-            margin-bottom: 20px;
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            margin-bottpm: 20px;
+            border-bottom: 2px solid #ddd;
         }
 
-        .header-title h1 {
-            margin: 0;
-            font-size: 28px;
-            color: #1f3558;
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #2C5F8D;
         }
-
         .back-link {
             text-decoration: none;
             color: #1f3558;
@@ -131,10 +135,12 @@
 
 <div class="main">
 
-    <div class="header-title">
+    <div class="header">
         <h1>Profil</h1>
-        <a href="javascript:history.back()" class="back-link">← Kembali</a>
     </div>
+
+    <!-- KEMBALI -->
+    <a href="index.php?page=lamaran-saya" class="back">← Kembali</a>
 
     <div class="profile-wrapper">
 
